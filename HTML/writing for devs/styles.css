@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Recursive:wght@300..1000&display=swap');
+
+body {
+    background: #232830;
+    font-family: 'Poppins', sans-serif;
+}
+
+.page-header {
+    margin-top: 75px;
+    margin-left: 218px;
+    margin-right: 226px;
+}
+
+.top-header {
+    color: white;
+    display: flex;
+    justify-content: space-between;
+
+    & h3 {
+        font-weight: 400;
+    }
+}
+
+.sub-header {
+    display: flex;
+    gap: 10px;
+
+}
+
+
+.Group5 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.logo {
+    margin-bottom: 40px;
+}
+
+.group-title {
+    font-family: 'Recursive', sans-serif;
+    font-style: italic;
+    font-size: 71px;
+    color: #FF7575;
+    margin-bottom: 17px;
+}
+
+.sub-title {
+    font-size: 29px;
+    letter-spacing: 0%;
+    color: white;
+
+}
+
+
+
+
+
+
+
+
+
+.categories {
+    margin-top: 100px;
+    border-top: 1px solid #4D4D4D;
+    padding: 30px 80px;
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+}
+
+.icons {
+    display: flex;
+    gap: 15px;
+    color: gray;
+    font-size: 1.8rem;
+}
+
+.links {
+    display: flex;
+    gap: 15px;
+}
+
+.links span {
+    color: gray;
+    text-decoration: none;
+    font-size: 1.5rem;
+    font-style: italic;
+
+
+}
+
+.links span:hover {
+    color: white;
+}

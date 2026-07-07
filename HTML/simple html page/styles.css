@@ -1,0 +1,73 @@
+.list-container {
+    display: flex;
+    /* Aligns child elements horizontally */
+    align-items: flex-start;
+    /* Keeps the text aligned with the top of the list */
+
+}
+
+/* Optional: Prevents text from collapsing if content is long */
+.side-text {
+    margin: 0;
+    flex-shrink: 0;
+}
+
+.list-container ul {
+    margin: 0;
+    /* Clears browser default spacing */
+}
+
+.date-list {
+    color: gray;
+    text-align: end;
+}
+
+main {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    font-family: monospace;
+}
+
+.description-list {
+    padding-left: 20px;
+}
+
+.description-list li {
+    position: relative;
+}
+
+.date-list ::marker {
+    color: transparent
+}
+
+.description-list li::before {
+    content: "";
+    position: absolute;
+    left: -10px;
+    top: 0;
+    bottom: 0;
+    width: 2px;
+    background-color: black;
+}
+
+#titulo {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    font-family: monospace;
+}
+
+.subtitulo {
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+
+a {
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
